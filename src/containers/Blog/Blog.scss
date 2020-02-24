@@ -1,0 +1,31 @@
+$coral: coral;
+
+.navBar {
+    display: flex;
+    justify-content: center;
+}
+
+.navBarList {
+    width:300px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    li {
+        margin: 12px;
+        a {
+            padding: 12px;
+            text-decoration: none;
+            &:hover {
+                color: $coral;
+                font-size: 15px;
+                border-radius: 12px;
+                box-shadow: 0 0 12px rgb(235, 177, 69);
+            }
+        }
+    }
+}
+
+
+
+
+
